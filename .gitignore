@@ -1,0 +1,9 @@
+/express_esim/
+/nodejs_server1/
+/serveri_esim2/
+
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/*.local
+**/.env

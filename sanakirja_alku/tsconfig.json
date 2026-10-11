@@ -1,0 +1,20 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true,
+    "lib": ["es2021"],
+    "module": "node16",
+    "target": "es2021",
+    "types": ["node"],
+    "ignoreDeprecations": "6.0"
+  },
+  "ts-node": {
+    "files": true
+  },
+  "strict": true,
+  "esModuleInterop": true,
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"],
+  "skipLibCheck": true,
+  "moduleResolution": "node16"
+}

@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "npx ttsx server.ts"
+  },
+  "dependencies": {
+    "@tsconfig/node16": "^16.1.9",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "ttsc": "^0.29.0",
+    "typescript": "^7.0.2"
+  }
+}

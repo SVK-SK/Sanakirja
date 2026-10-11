@@ -1,0 +1,28 @@
+.sovellus {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+button {
+  padding: 8px 14px;
+  margin-top: 10px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+input {
+  padding: 8px;
+  margin: 8px 0;
+}
+
+main {
+  padding-top: 10px;
+}
